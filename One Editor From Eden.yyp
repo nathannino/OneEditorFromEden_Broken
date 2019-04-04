@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "54683f61-c437-4130-bb03-a19e24bee727",
+            "Value": {
+                "id": "f49ff3ef-bd20-440d-8986-08c90e699b43",
+                "resourcePath": "views\\54683f61-c437-4130-bb03-a19e24bee727.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "546a8c8c-4016-4166-8c70-393454c829fc",
             "Value": {
                 "id": "045f83be-d9f4-482f-9786-5f0e0777778c",
@@ -284,6 +292,14 @@
                 "id": "4ff0e6eb-4972-4ab3-aa95-44d0f55e6fd6",
                 "resourcePath": "notes\\compatibility_report_280319_1838193819.yy",
                 "resourceType": "GMNotes"
+            }
+        },
+        {
+            "Key": "60726a43-62c9-49e5-9597-99e42526d731",
+            "Value": {
+                "id": "c0e0560c-27d0-45ad-9991-9f18e0d73610",
+                "resourcePath": "objects\\obj_ZoneManager\\obj_ZoneManager.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -355,6 +371,14 @@
             "Value": {
                 "id": "61e1394b-a684-4b3b-9529-e5b4d7775a86",
                 "resourcePath": "views\\6e724ce6-fb12-44c1-ad2b-65c1a283819c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6e97c5af-8567-4c87-bf52-8243e1b81f29",
+            "Value": {
+                "id": "3820bcb4-6da8-43a9-9217-c015c6085b14",
+                "resourcePath": "views\\6e97c5af-8567-4c87-bf52-8243e1b81f29.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -591,6 +615,14 @@
             }
         },
         {
+            "Key": "af649bf0-a156-4d7c-baac-97f4e18a9f68",
+            "Value": {
+                "id": "adb64ee7-30de-427b-a823-f355afa34f14",
+                "resourcePath": "scripts\\scr_OEFE_UpdateList\\scr_OEFE_UpdateList.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "aff17463-c074-4c62-b508-cd653b660bea",
             "Value": {
                 "id": "d59ed014-d859-495c-b2c2-06bb8bfa6c51",
@@ -796,6 +828,7 @@
         "4e3a7c5b-90f5-4650-ba4b-d9737dd49d84",
         "1756f9d9-50df-4bc6-8a47-665e02e1da66",
         "fdff502f-f54c-45c4-89f6-190d0e6145a4",
+        "af649bf0-a156-4d7c-baac-97f4e18a9f68",
         "83033af6-235f-48e7-82b9-532fb3b57444",
         "6dab36df-bed0-4f6d-8fc7-d4c1d15a65a4",
         "622a5399-536f-49e5-b5a4-6dab97926184",
