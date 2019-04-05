@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_Toolbar_ZoneHitbox",
     "eventList": [
-        
+        {
+            "id": "b146ad9f-c8b2-4bb9-b2d5-4f5541680ceb",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 10,
+            "eventtype": 6,
+            "m_owner": "6df77cfa-bed3-482d-b8a3-d826b47ed2fe"
+        }
     ],
     "maskSpriteId": "e3ef2937-ae72-43d4-b366-273a339c43c3",
     "overriddenProperties": null,
@@ -25,5 +34,5 @@
     "properties": null,
     "solid": false,
     "spriteId": "e3ef2937-ae72-43d4-b366-273a339c43c3",
-    "visible": true
+    "visible": false
 }

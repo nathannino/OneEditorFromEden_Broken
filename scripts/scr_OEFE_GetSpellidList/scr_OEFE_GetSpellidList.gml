@@ -14,10 +14,8 @@ if !(file_exists("ModFiles\\" + ModName + "\\Spells.xml")) {
 DerpXmlRead_OpenFile("ModFiles\\" + ModName + "\\Spells.xml");
 
 while DerpXmlRead_Read() {
-	show_debug_message("bye");
 	switch DerpXmlRead_CurType() {
 		case DerpXmlType_OpenTag :
-			show_debug_message("hi")
 			switch DerpXmlRead_CurValue() {
 				case "Spell" : {
 					output[SpellIdAmount] = DerpXmlRead_CurGetAttribute("itemID");

@@ -11,5 +11,5 @@ if (ReadXml_SpellId) {
 		show_debug_message(i);
 		show_debug_message(ES_ListArray[i]);
 	}
-	scr_OEFE_UpdateList(ListInstances, ES_ListArray, IdType, self);
+	ListInstances = scr_OEFE_UpdateList(ListInstances, ES_ListArray, IdType, self);
 }
