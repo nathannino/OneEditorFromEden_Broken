@@ -13,11 +13,12 @@ var RunningInstance = argument3;
 //positionning
 BaseX = RunningInstance.x;
 BaseY = RunningInstance.y;
-Ymultiplicator = 32;
+Ymultiplicator = sprite_get_height(spr_ZoneHitbox_ESList);
 
 if !(OldListInstances[0] == pointer_null) { //Delete the old objects
-	//Do this part later, just crash for now
-	show_error("The Eden foundation is sorry for any inconviniences that a temporary crash message that stayed in the game may have caused you", true);
+	for (i = 0; i < array_length_1d(OldListInstances); i++) {
+		instance_destroy(OldListInstances[i]);
+	}
 }
 
 for (i = 0; i < array_length_1d(ES_ListArray); i++) {

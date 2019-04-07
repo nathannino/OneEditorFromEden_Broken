@@ -12,19 +12,26 @@ var ListCubeInstances = argument1.ListInstances;
 //some more vars
 var MovementLength = sprite_get_height(spr_ZoneHitbox_ESList);
 
-show_debug_message("hi");
 
-switch (Dirrection) {
+switch (Dirrection) { //true = UP; false = DOWN
 	case (true) : {
-		show_debug_message("yes");
-		for (var i=0; i < array_length_1d(ListCubeInstances); i++) {
-			ListCubeInstances[i].y = ListCubeInstances[i].y - MovementLength;
+		if !(ListCubeInstances[array_length_1d(ListCubeInstances) - 1].y = inst_ES_BottomBorder.y) {
+			for (var i=0; i < array_length_1d(ListCubeInstances); i++) {
+				ListCubeInstances[i].y = ListCubeInstances[i].y - MovementLength;
+			}
+		} else {
+			show_debug_message("Can't go --down-- UP and there is no animations");
 		}
 		break;
 	}
 	case (false) : {
-		for (var i=0; i < array_length_1d(ListCubeInstances); i++) {
-			ListCubeInstances[i].y = ListCubeInstances[i].y + MovementLength;
+		
+		if !(ListCubeInstances[0].y = inst_ES_TopBorder.y) {
+			for (var i=0; i < array_length_1d(ListCubeInstances); i++) {
+				ListCubeInstances[i].y = ListCubeInstances[i].y + MovementLength;
+			}
+		} else {
+			show_debug_message("Can't go down and there is no animations");
 		}
 		break;
 	}
