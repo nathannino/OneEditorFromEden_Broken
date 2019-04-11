@@ -5,7 +5,7 @@ var tempColor = draw_get_colour();
 draw_set_valign(fa_middle);
 
 
-draw_text_colour(x + 2 - offset, y + sprite_height / 2, string_hash_to_newline(text), textColor, textColor, textColor, textColor, textAlpha);
+draw_text_colour(x + 2 - offset, y + sprite_height / 2, text, textColor, textColor, textColor, textColor, textAlpha);
 if(showCursor)
 {
     draw_line(cursorPosition, y + 2, cursorPosition, y + sprite_height - 3);
@@ -15,13 +15,13 @@ if(selectedStart != -1)
     var x1, x2;
     if(selectedStart > cursor)
     {
-        x1 = x + string_width(string_hash_to_newline(string_copy(text, 1, cursor))) + 2;
-        x2 = x1 + string_width(string_hash_to_newline(string_copy(text, cursor + 1, selectedStart - cursor)));
+        x1 = x + string_width(string_copy(text, 1, cursor)) + 2;
+        x2 = x1 + string_width(string_copy(text, cursor + 1, selectedStart - cursor));
     }
     else
     {
-        x1 = x + string_width(string_hash_to_newline(string_copy(text, 1, selectedStart))) + 2;
-        x2 = x1 + string_width(string_hash_to_newline(string_copy(text, selectedStart + 1, cursor - selectedStart)));
+        x1 = x + string_width(string_copy(text, 1, selectedStart)) + 2;
+        x2 = x1 + string_width(string_copy(text, selectedStart + 1, cursor - selectedStart));
     }
     if(selected)
     {

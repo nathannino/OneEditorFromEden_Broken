@@ -119,7 +119,7 @@ if(selected)
         if(selectedStart != -1)
             textbox_text_selected_remove(id);
         if(keyboard_string == "#")
-            textbox_text_insert(id, "\\#");
+            textbox_text_insert(id, "#");
         else
             textbox_text_insert(id, keyboard_string);
         keyboard_string = "";

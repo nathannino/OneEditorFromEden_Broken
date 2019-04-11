@@ -15,7 +15,7 @@ var MovementLength = sprite_get_height(spr_ZoneHitbox_ESList);
 
 switch (Dirrection) { //true = UP; false = DOWN
 	case (true) : {
-		if !(ListCubeInstances[array_length_1d(ListCubeInstances) - 1].y = inst_ES_BottomBorder.y) {
+		if !(ListCubeInstances[array_length_1d(ListCubeInstances) - 1].y <= inst_ES_BottomBorder.y) {
 			for (var i=0; i < array_length_1d(ListCubeInstances); i++) {
 				ListCubeInstances[i].y = ListCubeInstances[i].y - MovementLength;
 			}
