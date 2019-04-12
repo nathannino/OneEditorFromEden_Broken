@@ -16,7 +16,6 @@ for (i = 0; i < array_length_1d(ListInstancesList); i++) {
 //Get Next Id
 if !(ListInstancesList[array_length_1d(ListInstancesList) - 1].y <= inst_ES_BottomBorder.y) { //Don't try to go lower then
 	for (i = CurrentUp + 1; i < array_length_1d(ListInstancesList); i++) {
-		show_debug_message(i);
 		if (string_count(inst_ES_SearchBar.text, ListInstancesList[i].SetId) != 0) {
 			NextSelection = i;
 			break;
@@ -27,9 +26,9 @@ if !(ListInstancesList[array_length_1d(ListInstancesList) - 1].y <= inst_ES_Bott
 //Try upper numbers if nothing found
 if (NextSelection == undefined) {
 	for (i = 0; i < CurrentUp; i++) {
-		show_debug_message(i);
 		if (string_count(inst_ES_SearchBar.text, ListInstancesList[i].SetId) != 0) {
 			NextSelection = i;
+			break;
 		}
 	}
 }
@@ -37,18 +36,24 @@ if (NextSelection == undefined) {
 //Moves as if we had the scroll wheel active
 if (NextSelection != undefined) {
 	//get the amount to move
-	AmountToMove = NextSelection - CurrentUp;
-	
-	if (AmountToMove > 0) {
+	if (CurrentUp < NextSelection) {
+		AmountToMove = NextSelection - CurrentUp;
+		
 		for (i = 0; i < AmountToMove; i++) {
 			scr_OEFE_MoveList(true, inst_ES_ListManager);
 		}
 	} else {
-		AmountToMove = AmountToMove * -1;
-		
-		for (i = 0; i < AmountToMove; i++) {
+		AmountToMove = CurrentUp - NextSelection;
+		for (i = AmountToMove; i > 0; i--) {
 			scr_OEFE_MoveList(false, inst_ES_ListManager);
-		} 
+		}
 	}
+	//else {
+	//	AmountToMove = AmountToMove * -1;
+		
+	//	for (i = 0; i < AmountToMove; i++) {
+	//		scr_OEFE_MoveList(false, inst_ES_ListManager);
+	//	} 
+	//}
 
 }

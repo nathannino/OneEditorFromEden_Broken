@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_ES_SearchButton_Left",
     "eventList": [
-        
+        {
+            "id": "56828c3d-36b8-4cae-a799-3dac38f2acb3",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 6,
+            "m_owner": "2c79855a-d6b0-4480-aa9f-02bf9972423c"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
