@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "1af13f5c-e7a3-4e36-a4e9-e3129f8feb16",
+            "Value": {
+                "id": "518369a3-6806-49a5-9734-f1f8107e7ec0",
+                "resourcePath": "objects\\obj_textbox_scalable\\obj_textbox_scalable.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1e94959b-08ed-4979-8416-936ac131464e",
             "Value": {
                 "id": "a5850344-bed9-4cb9-89dc-1ebd82b5267e",
@@ -420,6 +428,14 @@
                 "id": "54985b59-2fd7-45d7-91bc-c0b8926e9ae4",
                 "resourcePath": "scripts\\DerpXmlWrite_GetString\\DerpXmlWrite_GetString.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6d9c097b-396d-4c8f-b40b-e651698eda6c",
+            "Value": {
+                "id": "9b67c60f-ee18-4627-8de3-c8c61c6083d2",
+                "resourcePath": "views\\6d9c097b-396d-4c8f-b40b-e651698eda6c.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -868,6 +884,14 @@
                 "id": "86f2be53-8d21-42fc-a185-8c2162a47888",
                 "resourcePath": "extensions\\DerpXml\\DerpXml.yy",
                 "resourceType": "GMExtension"
+            }
+        },
+        {
+            "Key": "e29c2a88-197e-4339-878c-374aa4b82280",
+            "Value": {
+                "id": "fe908019-21d9-41c1-9d71-66a01f8af2a8",
+                "resourcePath": "objects\\obj_EE_TemplateManager\\obj_EE_TemplateManager.yy",
+                "resourceType": "GMObject"
             }
         },
         {
