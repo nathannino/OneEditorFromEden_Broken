@@ -15,6 +15,9 @@ BaseX = RunningInstance.x;
 BaseY = RunningInstance.y;
 Ymultiplicator = sprite_get_height(spr_ZoneHitbox_ESList);
 
+//Remove the variables set by the old list
+RunningInstance.CurrentSelected = undefined;
+
 if !(OldListInstances[0] == pointer_null) { //Delete the old objects
 	for (i = 0; i < array_length_1d(OldListInstances); i++) {
 		instance_destroy(OldListInstances[i]);

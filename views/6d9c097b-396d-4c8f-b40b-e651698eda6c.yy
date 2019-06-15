@@ -4,7 +4,7 @@
     "mvc": "1.1",
     "name": "6d9c097b-396d-4c8f-b40b-e651698eda6c",
     "children": [
-        "e29c2a88-197e-4339-878c-374aa4b82280"
+        "981a1471-654f-4a8a-8ddf-d036076816b1"
     ],
     "filterType": "GMObject",
     "folderName": "TemplateManager",

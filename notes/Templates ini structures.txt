@@ -1,0 +1,12 @@
+Default ini structure for templates
+[ini] : ini is the propreties of the ini file. This tells the Template Scripts important information for reading 
+	the ini file. It is also used to check if the file exists. If the ini section cannot be found, it will put 
+	the file back to the default settings
+	
+ModuleAmount : ModuleAmout is used to check how many modules exist in the ini file.
+
+
+
+[Module#] : The section of a given module. # replace the number of the module, starting at 0;
+
+ModuleName : The given name of a module based on the list
