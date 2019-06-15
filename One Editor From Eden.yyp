@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "3d382ff6-34d1-4f5c-9592-f963e83628d7",
+            "Value": {
+                "id": "2818ba17-b6c1-4b3a-9d63-a333b026d257",
+                "resourcePath": "sprites\\spr_blackdim\\spr_blackdim.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3d53ea0d-4514-49ae-9c56-3d24f0a63518",
             "Value": {
                 "id": "09328aca-3b21-457e-bfb8-4537b946e977",
@@ -436,6 +444,22 @@
                 "id": "c0e0560c-27d0-45ad-9991-9f18e0d73610",
                 "resourcePath": "objects\\obj_ZoneManager\\obj_ZoneManager.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "61185cdb-1b48-4118-82aa-67b2aa2b95b2",
+            "Value": {
+                "id": "289b009b-a8f0-4c81-a54a-7a3e19d54109",
+                "resourcePath": "scripts\\scr_OEFE_EE_Module_TestModule\\scr_OEFE_EE_Module_TestModule.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "626f3dae-5690-4542-9528-0b06977ba6b9",
+            "Value": {
+                "id": "f5540f75-919d-4cd2-b32f-70cbfe6cd72c",
+                "resourcePath": "views\\626f3dae-5690-4542-9528-0b06977ba6b9.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -823,6 +847,22 @@
             }
         },
         {
+            "Key": "b0c78796-73ce-4134-a96d-b24a282918b4",
+            "Value": {
+                "id": "4ff82603-3480-495d-ac7f-c70f5c3ade5f",
+                "resourcePath": "views\\b0c78796-73ce-4134-a96d-b24a282918b4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b8597a96-9c72-4968-8d1d-6d4203cef345",
+            "Value": {
+                "id": "adad5cea-3643-4b19-ad04-fc6fbe1aae01",
+                "resourcePath": "objects\\obj_tools_blackdim\\obj_tools_blackdim.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b8a47c8e-cb6d-408f-8c33-7eef0b4c73b2",
             "Value": {
                 "id": "805cf42b-a146-424c-9b45-929b2299d48e",
@@ -1171,6 +1211,7 @@
         "69b74b5d-60b5-41a4-9c8c-00e4e7314860",
         "e3dbeb44-86e9-43e4-af99-41c2c66307be",
         "84994c90-4f5b-4c33-94f6-e32307ed44dc",
+        "61185cdb-1b48-4118-82aa-67b2aa2b95b2",
         "297ad6ec-53ad-413f-8621-75aa776b29ae",
         "445b2cdb-2516-4526-ad2d-fcf1983b2fe7",
         "d5f114a4-d0cd-498e-901e-d53f43ec214f",

@@ -1,3 +1,5 @@
-- TestModule (TestModule is, well, a test module. It will look at one specific element and give the string that is inside it)
+- ErrorModule (Will throw an error, is the default module)
+
+- TestModule (TestModule is, well, a test module. It will look at one specific element and give the string that is inside it. It is soo basic that it will not even appear if you do not have the console open)
 ElementName (The element to look at)
 

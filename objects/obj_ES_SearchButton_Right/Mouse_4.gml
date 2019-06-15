@@ -1,17 +1,23 @@
 /// @description Go look for the next thing and go there
 // You can write your code in this editor {YES!!! I KNOW ALREADY}
 
+//TODO : Update the search option to use the selected element
+
 var ListInstancesList = inst_ES_ListManager.ListInstances;
 var CurrentUp;
 var NextSelection = undefined;
 var AmountToMove;
 
-//get current ID
-for (i = 0; i < array_length_1d(ListInstancesList); i++) {
-	if (ListInstancesList[i].y == inst_ES_TopBorder.y) {
-		CurrentUp = i;
+//if (inst_ES_ListManager.CurrentSelected = undefined) {
+	//get current ID
+	for (i = 0; i < array_length_1d(ListInstancesList); i++) {
+		if (ListInstancesList[i].y == inst_ES_TopBorder.y) {
+			CurrentUp = i;
+		}
 	}
-}
+//} //else {
+	//CurrentUp = inst_ES_ListManager.CurrentSelected;
+//}
 
 //Get Next Id
 if !(ListInstancesList[array_length_1d(ListInstancesList) - 1].y <= inst_ES_BottomBorder.y) { //Don't try to go lower then
