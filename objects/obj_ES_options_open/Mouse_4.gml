@@ -4,7 +4,9 @@
 //TODO : Add the layer system
 
 //test code
-if (inst_ES_ListManager.ES_ListType == "Spell") {
-	scr_OEFE_LoadTemplate_SpellXml(inst_ES_ListManager.CurrentSelected.SetId,inst_ES_ListManager.CurrentSelected.SetType);
-	show_debug_message("Clicked open");
-}
+//if (inst_ES_ListManager.ES_ListType == "Spell") {
+//	scr_OEFE_LoadTemplate_SpellXml(inst_ES_ListManager.CurrentSelected.SetId,inst_ES_ListManager.CurrentSelected.SetType);
+//	show_debug_message("Clicked open");
+//}
+
+scr_OEFE_CreateTab(inst_ES_ListManager.ES_ListType, inst_ES_ListManager.CurrentSelected.SetId);

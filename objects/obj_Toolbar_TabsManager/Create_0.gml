@@ -4,3 +4,4 @@
 TabList = ds_list_create();
 ds_list_clear(TabList);
 TabAmount = 0;
+TabSelected = undefined;

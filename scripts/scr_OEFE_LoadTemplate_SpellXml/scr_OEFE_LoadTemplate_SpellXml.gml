@@ -7,6 +7,7 @@ var IdType = argument1;
 //var ModName = argument2; //uncomment when ModName can be changed
 var ModName = "ModName"
 
+
 //TODO : Create Default Template
 ini_open("Templates/SpellsXml.ini");
 //Create default template
@@ -16,7 +17,12 @@ ini_open("Templates/SpellsXml.ini");
 			ini_write_real("ini","ModuleAmount",1);
 			#region Module 0
 				ini_write_string("Module0","ModuleName","TestModule");
+				ini_write_real("Module0","YPosition",0);
 				ini_write_string("Module0","ElementName","Name");
+			#endregion
+			#region Module 1
+				ini_write_string("Module1","ModuleName","BottomModule");
+				ini_write_real("Module1","YPosition",100);
 			#endregion
 		#endregion
 	}

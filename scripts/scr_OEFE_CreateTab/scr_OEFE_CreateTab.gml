@@ -15,6 +15,9 @@ var NewTab = instance_create_layer(inst_TB_TabsManager.x,inst_TB_TabsManager.y,"
 //give name to tab
 NewTab.LayerID = ElementType;
 
+//give it some default stuff to work with
+NewTab.MaximumScroll = 0;
+
 //add it to the end of the list
 ds_list_add(TabList,NewTab);
 
