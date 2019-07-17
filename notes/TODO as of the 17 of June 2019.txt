@@ -1,0 +1,7 @@
+TODO :
+- Make the TemplateManager do his job
+- Create TestModule v2 (Does the same thing as v1, but it is drawn)
+- Make the EE scrollable
+- Make the tabs scrollable
+- Make the tabs exitable
+- Fix the search system

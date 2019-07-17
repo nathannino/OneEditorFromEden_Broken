@@ -19,3 +19,4 @@ scr_OEFE_ChangeTabFocus(inst_TB_TabsManager, NewTab, TabList);
 
 //add the TemplateManager to create the template for us
 NewTab.TemplateManager = instance_create_layer(0,96,LayerName,obj_EE_TemplateManager);
+NewTab.TemplateManager.TabTiedTo = NewTab; //wierd way to write it, but it is litteraly the only way...

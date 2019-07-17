@@ -13,7 +13,8 @@ var ElementID = argument1;
 var NewTab = instance_create_layer(inst_TB_TabsManager.x,inst_TB_TabsManager.y,"Instances_TB_Tabs",obj_TB_Tab);
 
 //give name to tab
-NewTab.LayerID = ElementType;
+NewTab.ElementType = ElementType;
+NewTab.ElementID = ElementID;
 
 //give it some default stuff to work with
 NewTab.MaximumScroll = 0;

@@ -1,9 +1,10 @@
 ///@desc Load the ini file for the Spell xml editor
 ///@args Element The name of the current element
+///@args Layer The layer of the current tab
 
 //Get variables
 var SelectedElement = argument0;
-var IdType = argument1;
+var LayerName = argument1;
 //var ModName = argument2; //uncomment when ModName can be changed
 var ModName = "ModName"
 
@@ -14,7 +15,7 @@ ini_open("Templates/SpellsXml.ini");
 {
 	if !(ini_section_exists("ini")) {
 		#region Write the default template
-			ini_write_real("ini","ModuleAmount",1);
+			ini_write_real("ini","ModuleAmount",2);
 			#region Module 0
 				ini_write_string("Module0","ModuleName","TestModule");
 				ini_write_real("Module0","YPosition",0);
@@ -27,19 +28,22 @@ ini_open("Templates/SpellsXml.ini");
 		#endregion
 	}
 }
-ini_read_real("ini","ModuleAmount",1); //get the amount of modules
 
-for (var i=0;i<1;i++) {
+for (var i=0;i<ini_read_real("ini","ModuleAmount",0);i++) {
 	var ModuleType = ini_read_string("Module"+string(i),"ModuleName","ErrorModule");
 	switch (ModuleType) {
+		#region ErrorModule
 		case "ErrorModule" : {
-			show_error("The Module was not found or was set to ErrorModule",true)
+			show_error("The Module was not found or was set to ErrorModule. That is bad",true)
 		}
+		#endregion
+		#region TestModule
 		case "TestModule" : {
-			//Test code for test module v1
+			//Code for TestModule v2
 			show_debug_message("Found TestModule");
-			scr_OEFE_EE_Module_TestModule(SelectedElement,ini_read_string("Module"+string(i),"ElementName","ThisIsABadError"),IdType,ModName);
+			instance_create_layer(x,y,LayerName,obj_EE_Module_TestModule);
 		}
+		#endregion
 	}
 }
 

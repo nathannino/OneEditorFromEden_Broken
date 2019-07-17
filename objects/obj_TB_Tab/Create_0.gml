@@ -1,8 +1,8 @@
 /// @description Name variables we can define later
 // You can write your code in this editor
 
-LayerID = undefined;
-Name = undefined;
+ElementID = undefined;
+ElementName = undefined;
 LayerName = undefined;
 
 //Change some sprite stuff

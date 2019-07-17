@@ -1,6 +1,7 @@
-/// @description Set variables to false
+/// @description Set variables to undefined
 
 IsReady = false;
 
-//Variables set by someone else
-//ModuleId
+ModuleId = undefined;
+ElementId = undefined;
+ElementToLook = undefined;

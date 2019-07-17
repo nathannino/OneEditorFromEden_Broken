@@ -8,7 +8,7 @@
         "b9949883-93d8-4c97-b7fc-6a2d1757575d"
     ],
     "filterType": "GMObject",
-    "folderName": "Templates",
+    "folderName": "Modules",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
