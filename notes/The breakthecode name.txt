@@ -1,0 +1,2 @@
+The breakthecode scripts are scripts used when handling the new ds_list for all id lists
+(The joke is that those scripts and rooms broke everything, since the id list is basically the first thing that was made and alot of stuff was made using that old, bad array)

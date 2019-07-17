@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "284e96d9-6af1-4eaf-8c31-eee0b0a7017d",
+            "Value": {
+                "id": "66290a18-5df9-4804-8cc4-b73ad8244ed0",
+                "resourcePath": "scripts\\scr_OEFE_breakthecode_getds\\scr_OEFE_breakthecode_getds.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "28573823-2091-443f-89be-e6c1efb365da",
             "Value": {
                 "id": "9bb69787-cb0a-4c04-99ab-6e2584c4e888",
@@ -683,6 +691,14 @@
             "Value": {
                 "id": "3820bcb4-6da8-43a9-9217-c015c6085b14",
                 "resourcePath": "views\\6e97c5af-8567-4c87-bf52-8243e1b81f29.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6f42df77-0b5a-4f0c-91d5-809671a86e77",
+            "Value": {
+                "id": "b5733b56-e050-4813-87aa-717c92c9277f",
+                "resourcePath": "views\\6f42df77-0b5a-4f0c-91d5-809671a86e77.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1327,11 +1343,27 @@
             }
         },
         {
+            "Key": "e4b01b95-5175-4b11-8faa-208d16a66341",
+            "Value": {
+                "id": "a3330ea7-dc97-4303-89ec-f35a8e6a0a15",
+                "resourcePath": "views\\e4b01b95-5175-4b11-8faa-208d16a66341.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "e9838494-d29d-49da-a10e-0af63da3808a",
             "Value": {
                 "id": "7c9c4be0-417d-4409-9dea-c91fb261233f",
                 "resourcePath": "views\\e9838494-d29d-49da-a10e-0af63da3808a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ea1c2258-e945-4be6-8dc6-fa4aeb12bb4f",
+            "Value": {
+                "id": "307d7811-4294-4a76-917b-83c98d3e06c4",
+                "resourcePath": "scripts\\scr_OEFE_breakthecode_getspellidds\\scr_OEFE_breakthecode_getspellidds.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1372,6 +1404,14 @@
                 "id": "749abb0f-6d86-4932-ac76-2c5893a45259",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f4c265aa-d093-4a13-ac5d-c904f7055c13",
+            "Value": {
+                "id": "c4028473-d8af-4923-b8d7-b29d94d72397",
+                "resourcePath": "notes\\The breakthecode name.yy",
+                "resourceType": "GMNotes"
             }
         },
         {
@@ -1462,6 +1502,8 @@
         "84994c90-4f5b-4c33-94f6-e32307ed44dc",
         "61185cdb-1b48-4118-82aa-67b2aa2b95b2",
         "d5d013de-75cf-4473-b721-a51ed46e51fb",
+        "284e96d9-6af1-4eaf-8c31-eee0b0a7017d",
+        "ea1c2258-e945-4be6-8dc6-fa4aeb12bb4f",
         "297ad6ec-53ad-413f-8621-75aa776b29ae",
         "445b2cdb-2516-4526-ad2d-fcf1983b2fe7",
         "d5f114a4-d0cd-498e-901e-d53f43ec214f",

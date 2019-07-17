@@ -16,3 +16,6 @@ randomise(); //hey, we got our seed done
 
 //Choose the splash screen
 sprite_index = Splash[irandom_range(0,9)];
+
+//wait until the splash screen has been rendered to do stuff
+alarm[0] = 1;
