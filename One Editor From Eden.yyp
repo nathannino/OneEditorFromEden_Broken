@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "296465aa-1efd-440d-a35f-400f7f6e2778",
+            "Value": {
+                "id": "6a79c544-50e2-41c9-94c2-75b5615cb818",
+                "resourcePath": "sprites\\spr_breakthecode_Splash0\\spr_breakthecode_Splash0.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "297ad6ec-53ad-413f-8621-75aa776b29ae",
             "Value": {
                 "id": "17083996-1d32-4bf4-92ae-4862dfea9d62",
