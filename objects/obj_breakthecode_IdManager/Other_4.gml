@@ -1,5 +1,8 @@
 /// @description Test the stuff that will break
 
+//add clarity to the output
+show_debug_message("Switched rooms, creating ds_lists");
+
 //manually add all of the splash screens
 Splash[9] = spr_breakthecode_Splash9;
 Splash[8] = spr_breakthecode_Splash8;
@@ -18,4 +21,4 @@ randomise(); //hey, we got our seed done
 sprite_index = Splash[irandom_range(0,9)];
 
 //wait until the splash screen has been rendered to do stuff
-alarm[0] = 1;
+alarm[0] = 2;

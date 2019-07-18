@@ -26,8 +26,9 @@ var FoundFile = false;
 
 //Change rooms to the main code breaker
 if (FoundFile) {
-	room_goto_next();
+	room_goto(rm_breakthecode);
 } else {
 	show_message("Error : No mod files found at location");
+	show_debug_message("Mod files not found, restarting room");
 	room_restart();
 }
