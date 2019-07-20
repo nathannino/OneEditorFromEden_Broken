@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0bd739d6-837a-42cd-908b-72778d9a1cc5",
+            "Value": {
+                "id": "ace410a9-5ca4-4077-bbba-9c9ab624f00f",
+                "resourcePath": "sprites\\sprite30_border\\sprite30_border.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0c4c0932-d4bc-4b0e-bc97-38c152e1e711",
             "Value": {
                 "id": "06d9cd8d-6b70-4eec-976e-d7050fc042fb",
@@ -143,6 +151,14 @@
             }
         },
         {
+            "Key": "1938f70d-26ea-46eb-aa4b-0be46823eca7",
+            "Value": {
+                "id": "6e49a095-081c-4e5b-8531-4f1cbd69195a",
+                "resourcePath": "objects\\obj_ES_DialogBox_TypeSelectorSubmit\\obj_ES_DialogBox_TypeSelectorSubmit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "19df9fb7-e83b-4c1a-aad3-b921b235abc4",
             "Value": {
                 "id": "a6452f26-d3bc-4e8a-b080-50c3fa04af0f",
@@ -164,6 +180,14 @@
                 "id": "a5850344-bed9-4cb9-89dc-1ebd82b5267e",
                 "resourcePath": "scripts\\DerpXmlExample_ReadOther\\DerpXmlExample_ReadOther.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "21aef8ef-a04e-42af-b607-8c947938f36c",
+            "Value": {
+                "id": "9846d138-d2ab-4308-a7ac-34c0c0ebf2fa",
+                "resourcePath": "views\\21aef8ef-a04e-42af-b607-8c947938f36c.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -316,6 +340,14 @@
                 "id": "b7efb7b5-d3d8-4412-a024-27bf15e0569c",
                 "resourcePath": "sprites\\spr_breakthecode_Splash3\\spr_breakthecode_Splash3.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "30c23b33-4c99-4e79-92da-93c109c9a7e1",
+            "Value": {
+                "id": "3576d7cd-bfb0-4b29-b3be-d7d2d2a49fdb",
+                "resourcePath": "objects\\obj_ES_DiagBox_TypeSelector\\obj_ES_DiagBox_TypeSelector.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -615,6 +647,14 @@
             }
         },
         {
+            "Key": "691a9ef0-39a6-4485-bae8-5567668170ba",
+            "Value": {
+                "id": "ab77616b-148c-489b-a6cc-50bca0662fff",
+                "resourcePath": "objects\\obj_ES_DialogBox_TypeSelectorList\\obj_ES_DialogBox_TypeSelectorList.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6990dc3f-1133-4e13-b022-b8739cd1ea44",
             "Value": {
                 "id": "74a57fb2-1ba8-4bc0-a49c-d22342fb7e95",
@@ -636,6 +676,14 @@
                 "id": "54985b59-2fd7-45d7-91bc-c0b8926e9ae4",
                 "resourcePath": "scripts\\DerpXmlWrite_GetString\\DerpXmlWrite_GetString.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6b635c13-c188-4078-8486-be47f4abdee9",
+            "Value": {
+                "id": "d8a0fa8e-9981-4669-a2ad-e00823c3ede2",
+                "resourcePath": "sprites\\sprite30\\sprite30.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -919,6 +967,14 @@
             }
         },
         {
+            "Key": "90fbc5d9-1a7f-47d6-903f-ce8589c0f2cb",
+            "Value": {
+                "id": "220ea38f-b086-410f-8fa2-68b664f6cb23",
+                "resourcePath": "views\\90fbc5d9-1a7f-47d6-903f-ce8589c0f2cb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "955c5fec-5bea-41dd-981c-7d602d5c1453",
             "Value": {
                 "id": "a926652f-006c-4625-92f7-536dd57909fc",
@@ -1007,11 +1063,35 @@
             }
         },
         {
+            "Key": "a8e09346-7cf6-4fd8-b5b2-cb2167d0ce91",
+            "Value": {
+                "id": "16d4a061-6593-4146-b344-a66ce1510ae1",
+                "resourcePath": "objects\\obj_ES_TypeSelector\\obj_ES_TypeSelector.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "8c36e398-ea4a-468a-ab46-c8abeef95dcd",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "aa5e3c02-c078-4d09-93b8-725dbeb56bbd",
+            "Value": {
+                "id": "e1ef7315-23a4-4f5e-b73c-4b6e56932a21",
+                "resourcePath": "views\\aa5e3c02-c078-4d09-93b8-725dbeb56bbd.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ab5d57df-2230-4c4a-8f7c-a066d7f75233",
+            "Value": {
+                "id": "911e9d8d-6728-4e27-8610-65e2d70339ef",
+                "resourcePath": "objects\\obj_tools_PauseBG\\obj_tools_PauseBG.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1399,6 +1479,14 @@
             }
         },
         {
+            "Key": "f19bd4d4-c18c-4aae-8f22-f550f16e73bb",
+            "Value": {
+                "id": "f4f1b2fd-8b69-4d8f-b5f3-7332e2f4776f",
+                "resourcePath": "sprites\\spr_ES_TypeSelector1\\spr_ES_TypeSelector1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f3269661-6445-484e-a0af-df7c8f7096f3",
             "Value": {
                 "id": "710f57b3-4584-4fe8-a599-a47a5f1c2b62",
@@ -1412,6 +1500,14 @@
                 "id": "749abb0f-6d86-4932-ac76-2c5893a45259",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f429c1b4-1e29-427d-845e-1140b7a6cc76",
+            "Value": {
+                "id": "103a9d53-ac9f-4810-acec-0c9351e0be36",
+                "resourcePath": "objects\\obj_ES_DialogBox_TypeSelectorBorder\\obj_ES_DialogBox_TypeSelectorBorder.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1435,6 +1531,14 @@
             "Value": {
                 "id": "d65907dd-27cd-486b-a061-6eb4100cb4cf",
                 "resourcePath": "sprites\\spr_breakthecode_SplashTemplate\\spr_breakthecode_SplashTemplate.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f974f20d-1252-49d2-a95c-f8cca6f8a171",
+            "Value": {
+                "id": "4e3a1925-d344-41c2-9e2d-3ed1783b35c5",
+                "resourcePath": "sprites\\spr_ES_TypeSelector\\spr_ES_TypeSelector.yy",
                 "resourceType": "GMSprite"
             }
         },
