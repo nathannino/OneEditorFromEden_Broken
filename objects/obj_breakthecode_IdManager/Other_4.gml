@@ -4,6 +4,12 @@
 show_debug_message("Switched rooms, creating ds_lists");
 
 //manually add all of the splash screens
+Splash[15] = spr_breakthecode_Splash15;
+Splash[14] = spr_breakthecode_Splash14;
+Splash[13] = spr_breakthecode_Splash13;
+Splash[12] = spr_breakthecode_Splash12;
+Splash[11] = spr_breakthecode_Splash11;
+Splash[10] = spr_breakthecode_Splash10;
 Splash[9] = spr_breakthecode_Splash9;
 Splash[8] = spr_breakthecode_Splash8;
 Splash[7] = spr_breakthecode_Splash7;
@@ -18,7 +24,7 @@ Splash[0] = spr_breakthecode_Splash0;
 randomise(); //hey, we got our seed done
 
 //Choose the splash screen
-sprite_index = Splash[irandom_range(0,9)];
+sprite_index = Splash[irandom_range(0,15)];
 
 //wait until the splash screen has been rendered to do stuff
 alarm[0] = 2;

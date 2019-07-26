@@ -8,7 +8,7 @@ instance_deactivate_all(true); //disactivate everything except self, since we ha
 {
 	var BlackDim = instance_create_layer(0,0,"Instances_Dim",obj_tools_blackdim);
 	var PauseBG = instance_create_layer(0,0,"Instances_PauseBG",obj_tools_PauseBG);
-	var DialogBox = instance_create_layer(320,192,"Instances_AboveDim",obj_ES_DiagBox_TypeSelector);
+	var DialogBox = instance_create_layer(320,192,"Instances_AboveDim1",obj_ES_DiagBox_TypeSelector);
 }
 
 //Deal with the BG

@@ -7,7 +7,8 @@
         "30c23b33-4c99-4e79-92da-93c109c9a7e1",
         "f429c1b4-1e29-427d-845e-1140b7a6cc76",
         "691a9ef0-39a6-4485-bae8-5567668170ba",
-        "1938f70d-26ea-46eb-aa4b-0be46823eca7"
+        "1938f70d-26ea-46eb-aa4b-0be46823eca7",
+        "5b907272-f79a-4dad-a498-d2c31916c69b"
     ],
     "filterType": "GMObject",
     "folderName": "TypeSelector",

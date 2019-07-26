@@ -7,7 +7,7 @@
         "90fbc5d9-1a7f-47d6-903f-ce8589c0f2cb"
     ],
     "filterType": "GMObject",
-    "folderName": "Dialog Box",
+    "folderName": "Dialog Box (spagetti sauce ones)",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

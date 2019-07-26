@@ -13,7 +13,13 @@
         "9a173e55-3c0a-47bd-9c39-ec3a0cddf064",
         "2f8dd461-a0fe-4f7b-a941-d521a660a9d9",
         "89ff79bd-5f3c-4524-9d29-56ec0bf6b61b",
-        "c276f5f4-c468-4bd5-9c77-95282d8e1b67"
+        "c276f5f4-c468-4bd5-9c77-95282d8e1b67",
+        "0cd72f43-f5f6-42b0-96f8-1a785a89610a",
+        "3a66c197-a3b9-498d-8294-c9c04c4d1bdd",
+        "dc6f79fc-e8de-48cc-a26f-49d218eac644",
+        "f3eaf8f3-ca91-40b3-a4aa-8f1e9e3e3142",
+        "8fd9460b-8d91-4d6e-a68a-2539177f6aba",
+        "57a71fbd-55d1-4bac-bd63-fcb2aed6b43d"
     ],
     "filterType": "GMSprite",
     "folderName": "splash",
